@@ -19,6 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
+    position: relative;
 }
 
 .navbar .ul {
@@ -33,10 +34,18 @@ body {
 }
 
 .navbar .ul div a {
+    margin: 30px;
     color: white;
     font-size: 30px;
     text-decoration: none;
    
+}
+
+.totalItem{
+    font-size: 30px;
+    position: absolute;
+    right: 40px;
+    top: 30px;
 }
 
 /* Product Grid */
@@ -47,6 +56,22 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.category-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.category-title > div{
+    width: fit-content;
+    height: fit-content;
+    margin: 30px;
+    text-align: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -150,7 +175,7 @@ body {
     height: 70px;
     width: 70px;
     border-radius: 70%;
-    
+    margin-right: 30px;
 }
 
 .luxury {
